@@ -1,0 +1,38 @@
+.body
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../Images/icons8-team-dhZtNlvNE8M-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.layer
+{
+    position: absolute;
+    top: 0;
+    right: 0 ;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon
+{
+    font-size: 100px;
+}
+.counterBox
+{
+    background-color: brown;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 15px;
+    padding: 20px;
+    border: 1px solid gray;
+}
